@@ -1,0 +1,10 @@
+In this project we have used Multer: Its a very famous library which allows you to easily upload files from your
+frontend ( any frontend - JS frontend , React frontend or any other)
+
+We have created the images folder , to store all the images that will be uploaded
+
+
+With Multer , we always have to make 3 things ,as it serves as a middleware
+
+the middleware will be passed from Multer to app.post , where before showing the message "Image Uploaded" , the image
+would have been uploaded.

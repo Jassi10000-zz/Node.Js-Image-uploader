@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h1>Upload Image</h1>
+      <!-- action determines which post request we are making -->
+      <form method="post" action="/upload" enctype="multipart/form-data">
+                                          <!-- enctype means we accept this type of data in the form -->
+
+        <input type="file" name="image"> <!-- this name = ?  (image)  , ? is same as what we did in upload.single -->
+        <input type="submit">
+      </form>
+    </body>
+</html>
